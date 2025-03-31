@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    position: absolute;
+    flex-flow: column;
+    width: 300px;
+    right: 0;
+    bottom: 0;
+    margin: 50px;
+}
+
+.container button {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #1980df;
+    color: #fff;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+}
+
