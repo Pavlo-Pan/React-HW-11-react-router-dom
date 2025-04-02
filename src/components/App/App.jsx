@@ -1,9 +1,9 @@
-import Navigation from '../Navigation/Navigation'
-import HomePage from '../../pages/HomePage/HomePage'
-import ArticlesPage from '../../pages/ArticlesPage/ArticlesPage'
-import ArticlesProfilePage from '../../pages/ArticlesProfilePage/ArticlesProfilePage'
-import { Routes, Route } from 'react-router-dom'
 import './App.css'
+
+import { Routes, Route } from 'react-router-dom'
+
+import Navigation from '../Navigation/Navigation'
+import { HomePage, ArticlesPage, ArticlesProfilePage } from '../../pages/pages.js';
 
 function App() {
   return (

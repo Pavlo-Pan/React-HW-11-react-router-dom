@@ -1,7 +1,10 @@
 import styles from './ArticlesProfilePage.module.css';
-import articles from '../../data/articles';
 
 import { useParams, useNavigate } from 'react-router-dom';
+
+import articles from '../../data/articles';
+
+
 
 const ArticlesProfilePage = () => {
     const { id } = useParams();
